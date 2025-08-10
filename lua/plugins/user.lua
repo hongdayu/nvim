@@ -31,7 +31,7 @@ return {
     "AstroNvim/astroui",
     ---@type AstroUIOpts
     opts = {
-      colorscheme = "astrodark",
+      colorscheme = "onedark",
       icons = {
         ActiveLSP = "",
         ActiveTS = "",
@@ -133,5 +133,9 @@ return {
         },
       },
     },
+  },
+  {
+    "olimorris/onedarkpro.nvim",
+    priority = 1000, -- Ensure it loads first
   },
 }

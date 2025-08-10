@@ -53,6 +53,12 @@ return {
           neovide_show_border = true,
           neovide_refresh_rate = 120,
           neovide_window_blurred = true,
+          neovide_transparency = 0.9,             -- 透明度
+          neovide_scroll_animation_length = 0.3,  -- 滚动动画时长
+          neovide_cursor_animation_length = 0.03, -- 光标动画
+          neovide_cursor_trail_size = 0.8,        -- 光标拖尾大小
+          neovide_hide_mouse_when_typing = true,  -- 输入时隐藏鼠标
+          neovide_remember_window_size = true,    -- 记忆窗口大小
         },
       },
       commands = {
